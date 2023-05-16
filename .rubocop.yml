@@ -1,0 +1,12 @@
+require:
+  - rubocop-performance
+  - rubocop-thread_safety
+
+AllCops:
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: "never"
+
+Style/StringLiterals:
+  EnforcedStyle: "double_quotes"
