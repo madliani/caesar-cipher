@@ -7,7 +7,7 @@ class CesarCipher
   ALPHABET_CARDINALITY = 26
 
   def initialize(text = "", key = 0)
-    @text = text
+    @text = text.chomp.strip.chars
     @key = key
   end
 
@@ -16,7 +16,7 @@ class CesarCipher
     cipher = []
     alphabet = ""
 
-    @text.chars.each do |character|
+    @text.each do |character|
       if ALPHABET_LOWERCASE.include? character
         alphabet = ALPHABET_LOWERCASE
       elsif ALPHABET_UPPERCASE.include? character
@@ -40,7 +40,7 @@ class CesarCipher
     plaintext = []
     alphabet = ""
 
-    @text.chars.each do |character|
+    @text.each do |character|
       if ALPHABET_LOWERCASE.include? character
         alphabet = ALPHABET_LOWERCASE
       elsif ALPHABET_UPPERCASE.include? character
