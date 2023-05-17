@@ -4,12 +4,12 @@ require "rspec"
 
 require_relative "../src/cesar_cipher"
 
-HELLO_WORLD = "".freeze
+HELLO_WORLD = "Hello, World!".freeze
 
 RSpec.describe CesarCipher do
   it "Test #1" do
     cesar_cipher = CesarCipher.new HELLO_WORLD
 
-    expect(cesar_cipher.take_a_step).to eq "Hello, World!"
+    expect(cesar_cipher.do_something).to eq "Yvccf, Nficu!"
   end
 end
