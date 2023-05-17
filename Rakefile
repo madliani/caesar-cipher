@@ -19,5 +19,5 @@ task :typecheck do
 end
 
 task :test do
-  sh "rspec"
+  sh "bundle exec rspec"
 end
