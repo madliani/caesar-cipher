@@ -6,7 +6,7 @@ require "rubygems"
 
 require_relative "caesar_cipher"
 
-PLAINTEXT = "Hello, World!".freeze
+PLAINTEXT = "Gaius Julius Caesar".freeze
 ENCRYPTED_TEXT = "Srcxzrk Alcgyr".freeze
 KEY = 17
 
