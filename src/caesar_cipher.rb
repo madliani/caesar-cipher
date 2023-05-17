@@ -1,7 +1,7 @@
 # typed: false
 
 # Caesar's Cipher Encoder and Decoder
-class CesarCipher
+class CaesarCipher
   ALPHABET_LOWERCASE = "abcdefghijklmnopqrstuvwxyz".freeze
   ALPHABET_UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".freeze
   ALPHABET_CARDINALITY = 26

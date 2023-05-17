@@ -1,4 +1,4 @@
 # typed: false
 
 require_relative "spec_helper"
-require_relative "cesar_cipher_spec"
+require_relative "caesar_cipher_spec"

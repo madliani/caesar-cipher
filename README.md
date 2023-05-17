@@ -1,15 +1,15 @@
-# Cesar Cipher
+# Caesar Cipher
 
 <div align="center">
-    <img src="./assets/icons/key.png" alt="Cesar Cipher logo" width="192" height="192" />
+    <img src="./assets/icons/key.png" alt="Caesar Cipher logo" width="192" height="192" />
 
-    The Cesar's Cipher Encoder and Decoder
+    The Caesar's Cipher Encoder and Decoder
 
 </div>
 
 ![Built with Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 
-This is an encoder and a decoder of Cesar's cipher.
+This is an encoder and a decoder of Caesar's cipher.
 
 ## Usage
 
