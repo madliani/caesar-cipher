@@ -7,7 +7,7 @@ class CaesarCipher
   ALPHABET_CARDINALITY = 26
 
   def initialize(text = "", key = 0)
-    @text = text.chomp.strip.chars
+    @text = text.chomp.strip.chars.freeze
     @key = key
   end
 
