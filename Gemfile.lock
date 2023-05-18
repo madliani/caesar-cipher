@@ -53,6 +53,10 @@ GEM
       sorbet-static (= 0.5.10827)
     sorbet-runtime (0.5.10827)
     sorbet-static (0.5.10827-x86_64-linux)
+    standard (0.0.36.1)
+      rubocop (> 0.63)
+    standardrb (1.0.1)
+      standard
     unicode-display_width (2.4.2)
 
 PLATFORMS
@@ -66,6 +70,7 @@ DEPENDENCIES
   rubocop-thread_safety
   sorbet
   sorbet-runtime
+  standardrb
 
 BUNDLED WITH
    2.3.26

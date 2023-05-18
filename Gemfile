@@ -7,6 +7,7 @@ group :development do
   gem "rubocop-thread_safety", require: false
   gem "sorbet", require: false
   gem "sorbet-runtime", require: false
+  gem "standardrb", require: false
 end
 
 group :production do
