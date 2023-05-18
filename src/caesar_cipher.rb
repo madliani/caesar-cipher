@@ -18,9 +18,9 @@ class CaesarCipher
 
     @text.each do |character|
       if ALPHABET_LOWERCASE.include? character
-        alphabet = ALPHABET_LOWERCASE
+        alphabet = ALPHABET_LOWERCASE.freeze
       elsif ALPHABET_UPPERCASE.include? character
-        alphabet = ALPHABET_UPPERCASE
+        alphabet = ALPHABET_UPPERCASE.freeze
       else
         cipher << character
       end
