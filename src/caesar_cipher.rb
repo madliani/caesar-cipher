@@ -13,7 +13,7 @@ class CaesarCipher
 
   # Encode
   def do_something
-    cipher = []
+    encryted_text = []
     alphabet = ""
 
     @text.each do |character|
@@ -22,17 +22,17 @@ class CaesarCipher
       elsif ALPHABET_UPPERCASE.include? character
         alphabet = ALPHABET_UPPERCASE.freeze
       else
-        cipher << character
+        encryted_text << character
       end
 
       if alphabet.include? character
         alphabet.chars.each.with_index do |_, letter_index|
-          cipher << alphabet[(letter_index + @key) % ALPHABET_CARDINALITY] if character == alphabet[letter_index]
+          encryted_text << alphabet[(letter_index + @key) % ALPHABET_CARDINALITY] if character == alphabet[letter_index]
         end
       end
     end
 
-    cipher.join.freeze
+    encryted_text.join.freeze
   end
 
   # Decode
