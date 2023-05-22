@@ -30,7 +30,3 @@ Runs the code linters.
 ### `rake test`
 
 Launches the test runner.
-
-## Contributors
-
-- [Rakhman Abdurakhmanov](https://crystallographer.github.io) - creator and maintainer.
