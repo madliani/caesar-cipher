@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# typed: false
 
 require "bundler/setup"
 require "rubygems"
@@ -12,3 +11,4 @@ KEY = 17
 
 pp CaesarCipher.new(PLAINTEXT, KEY).do_something
 pp CaesarCipher.new(ENCRYPTED_TEXT, KEY).take_a_step
+

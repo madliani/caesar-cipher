@@ -1,5 +1,3 @@
-# typed: false
-
 # Caesar's Cipher Encoder and Decoder
 class CaesarCipher
   ALPHABET_LOWERCASE = "abcdefghijklmnopqrstuvwxyz".freeze
@@ -59,3 +57,4 @@ class CaesarCipher
     plaintext.join.freeze
   end
 end
+
