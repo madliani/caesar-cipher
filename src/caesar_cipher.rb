@@ -57,4 +57,3 @@ class CaesarCipher
     plaintext.join.freeze
   end
 end
-

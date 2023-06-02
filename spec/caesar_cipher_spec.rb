@@ -12,4 +12,3 @@ RSpec.describe CaesarCipher do
     expect(caesar_cipher.do_something).to eq "Yvccf, Nficu!"
   end
 end
-

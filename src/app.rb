@@ -11,4 +11,3 @@ KEY = 17
 
 pp CaesarCipher.new(PLAINTEXT, KEY).do_something
 pp CaesarCipher.new(ENCRYPTED_TEXT, KEY).take_a_step
-

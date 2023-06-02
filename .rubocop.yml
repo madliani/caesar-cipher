@@ -1,10 +1,5 @@
 require:
   - rubocop-performance
+  - rubocop-rspec
   - rubocop-thread_safety
   - standard
-
-AllCops:
-  NewCops: enable
-
-Style/FrozenStringLiteralComment:
-  EnforcedStyle: "never"
