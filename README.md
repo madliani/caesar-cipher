@@ -1,11 +1,11 @@
 # Caesar Cipher
 
-<div align="center">
+<p align="center">
     <img src="./assets/icons/key.png" alt="Caesar Cipher logo" width="192" height="192" />
 
     The Caesar's Cipher Encoder and Decoder
 
-</div>
+</p>
 
 ![Built with Ruby](https://img.shields.io/badge/Ruby-CC342D.svg?style=for-the-badge&logo=Ruby&logoColor=white)
 
