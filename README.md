@@ -15,7 +15,7 @@ This is an encoder and a decoder of Caesar's cipher.
 
 In the project directory, you can run:
 
-### `rake build`
+### `rake run`
 
 Runs the app.
 
