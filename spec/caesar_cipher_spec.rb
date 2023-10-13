@@ -6,9 +6,11 @@ HELLO_WORLD = "Hello, World!".freeze
 KEY = 17
 
 RSpec.describe CaesarCipher do
-  it "Test #1" do
-    caesar_cipher = CaesarCipher.new HELLO_WORLD, KEY
+  subject do
+    CaesarCipher.new HELLO_WORLD, KEY
+  end
 
-    expect(caesar_cipher.do_something).to eq "Yvccf, Nficu!"
+  it "Test #1" do
+    expect(subject.do_something).to eq "Yvccf, Nficu!"
   end
 end
