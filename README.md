@@ -15,17 +15,25 @@ This is an encoder and a decoder of Caesar's cipher.
 
 In the project directory, you can run:
 
-### `rake run`
+### `rake doc`
 
-Runs the app.
+Runs the documentation tool.
 
 ### `rake format`
 
 Runs the code formatter.
 
+### `rake install`
+
+Installs the dependencies.
+
 ### `rake lint`
 
-Runs the code linters.
+Launches the code linters.
+
+### `rake run`
+
+Runs the app.
 
 ### `rake test`
 
